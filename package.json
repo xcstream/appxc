@@ -1,0 +1,28 @@
+{
+  "name": "appxc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xcstream/appxc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xcstream/appxc/issues"
+  },
+  "homepage": "https://github.com/xcstream/appxc#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "express-session": "^1.15.1",
+    "helmet": "^3.4.0",
+    "pug": "^2.0.0-beta11",
+    "serve-static": "^1.11.2"
+  }
+}
